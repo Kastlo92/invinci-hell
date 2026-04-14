@@ -1,3 +1,13 @@
 [gd_scene format=3 uid="uid://gyytmc2uoudt"]
 
+[ext_resource type="PackedScene" uid="uid://doiyft2snbh7j" path="res://Scenes/grid.tscn" id="1_l756w"]
+[ext_resource type="PackedScene" uid="uid://ug7no74aj282" path="res://Scenes/camera.tscn" id="2_pu3va"]
+[ext_resource type="PackedScene" uid="uid://bns23uaw22a8s" path="res://Scenes/player.tscn" id="3_0e3vx"]
+
 [node name="MainGame" type="Node2D" unique_id=1547132410]
+
+[node name="Grid" parent="." unique_id=1473468890 instance=ExtResource("1_l756w")]
+
+[node name="Camera" parent="." unique_id=884408907 instance=ExtResource("2_pu3va")]
+
+[node name="Player" parent="." unique_id=1232287706 instance=ExtResource("3_0e3vx")]
