@@ -1,12 +1,19 @@
 [gd_scene format=3 uid="uid://bns23uaw22a8s"]
 
+[ext_resource type="Script" uid="uid://b4lx0tuf86u7x" path="res://Scripts/player.gd" id="1_cvnsp"]
 [ext_resource type="Texture2D" uid="uid://8xpavegtvodq" path="res://Assets/first.png" id="1_v0iea"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_cvnsp"]
 atlas = ExtResource("1_v0iea")
 region = Rect2(31.927612, 32.069042, 32.072388, 31.930958)
 
-[node name="Player" type="Node2D" unique_id=1232287706]
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_v0iea"]
+
+[node name="Player" type="CharacterBody2D" unique_id=932733440]
+script = ExtResource("1_cvnsp")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1300609927]
 texture = SubResource("AtlasTexture_cvnsp")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1312437279]
+shape = SubResource("CapsuleShape2D_v0iea")
