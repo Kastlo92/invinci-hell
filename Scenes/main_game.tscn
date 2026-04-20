@@ -10,6 +10,7 @@
 zoom = Vector2(4, 4)
 
 [node name="Player" parent="." unique_id=1232287706 instance=ExtResource("3_0e3vx")]
+z_index = 1
 position = Vector2(0, -20)
 
 [node name="Grid" parent="." unique_id=1473468890 instance=ExtResource("1_l756w")]

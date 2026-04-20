@@ -1,11 +1,11 @@
 [gd_scene format=3 uid="uid://bns23uaw22a8s"]
 
 [ext_resource type="Script" uid="uid://b4lx0tuf86u7x" path="res://Scripts/player.gd" id="1_cvnsp"]
-[ext_resource type="Texture2D" uid="uid://8xpavegtvodq" path="res://Assets/first.png" id="1_v0iea"]
+[ext_resource type="Texture2D" uid="uid://bjnss8o6k0qy4" path="res://Assets/blocks.png" id="2_cvnsp"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_cvnsp"]
-atlas = ExtResource("1_v0iea")
-region = Rect2(31.927612, 32.069042, 32.072388, 31.930958)
+atlas = ExtResource("2_cvnsp")
+region = Rect2(0, 64, 32, 32)
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_v0iea"]
 
