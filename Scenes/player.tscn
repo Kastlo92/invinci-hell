@@ -12,7 +12,7 @@ region = Rect2(0, 64, 32, 32)
 [node name="Player" type="CharacterBody2D" unique_id=932733440]
 script = ExtResource("1_cvnsp")
 
-[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1300609927]
+[node name="PlayerSprite" type="Sprite2D" parent="." unique_id=1300609927]
 texture = SubResource("AtlasTexture_cvnsp")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1312437279]
