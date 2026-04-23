@@ -10,10 +10,9 @@ region = Rect2(0, 64, 32, 32)
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_v0iea"]
 
 [sub_resource type="SeparationRayShape2D" id="SeparationRayShape2D_cvnsp"]
-length = 16.0
 
 [node name="Player" type="CharacterBody2D" unique_id=932733440]
-floor_max_angle = 1.5707964
+floor_max_angle = 0.19373155
 script = ExtResource("1_cvnsp")
 
 [node name="PlayerSprite" type="Sprite2D" parent="." unique_id=1300609927]
